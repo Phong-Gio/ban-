@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #555;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1590080876095-5c4d5636c72d?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      padding: 20px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product h3 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
+    .product .price {
+      color: #e91e63;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SHOP ONLINE</h1>
+    <p>Mua sắm dễ dàng – Giao hàng tận nơi</p>
+  </header>
+
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#products">Sản phẩm</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h1>Chào mừng đến với Shop Online</h1>
+  </div>
+
+  <section class="section" id="products">
+    <h2>Sản phẩm nổi bật</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/bag-1868758_960_720.jpg" alt="Túi xách">
+        <h3>Túi xách thời trang</h3>
+        <p>Thiết kế trẻ trung, hiện đại.</p>
+        <div class="price>">500.000đ</div>
+      </div>
+      <div class="product">
+        <img src="https://cdn.pixabay.com/photo/2017/08/06/00/03/people-2583493_960_720.jpg" alt="Áo sơ mi">
+        <h3>Áo sơ mi nam</h3>
+        <p>Phong cách lịch lãm, dễ phối đồ.</p>
+        <div class="price">350.000đ</div>
+      </div>
+      <div class="product">
+        <img src="https://cdn.pixabay.com/photo/2015/01/09/11/11/boots-594182_960_720.jpg" alt="Giày boots">
+        <h3>Giày boots nữ</h3>
+        <p>Chất liệu cao cấp, bền đẹp.</p>
+        <div class="price">750.000đ</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>Về chúng tôi</h2>
+    <p>Shop Online là nơi cung cấp những sản phẩm thời trang chất lượng, giá cả hợp lý, phục vụ khách hàng tận tâm và chuyên nghiệp.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Liên hệ</h2>
+    <p>Email: shoponline@gmail.com</p>
+    <p>Điện thoại: 0123 456 789</p>
+    <p>Facebook: facebook.com/shoponline</p>
+  </section>
+
+  <footer>
+    &copy; 2025 SHOP ONLINE. Thiết kế bởi Bạn.
+  </footer>
+
+</body>
+</html>
